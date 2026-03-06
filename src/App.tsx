@@ -180,21 +180,15 @@ function App() {
           <div className="mx-auto flex w-full max-w-6xl flex-col items-center text-center">
             <section
               id="overview"
-              className="max-w-3xl scroll-mt-24 space-y-4 sm:space-y-5"
+              className="max-w-3xl scroll-mt-24 space-y-3 sm:space-y-4"
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.34em] text-emerald-300">
-                Live Shopping Gamification
-              </p>
               <CardTitle className="text-[2.35rem] font-extrabold leading-[0.95] tracking-[-0.05em] text-white sm:text-5xl lg:text-6xl">
-                Winme turns live shopping into a game people want to play
+                <span className="text-[#f6c945]">W</span>inme turns live
+                shopping into a game people want to play
                 <span className="jump-dot inline-block">.</span>
               </CardTitle>
               <CardDescription className="mx-auto max-w-2xl text-sm leading-7 text-white/78 sm:text-lg sm:leading-8">
-                Winme.live is a live selling layer that adds gaming,
-                competition, rewards, and real-time interaction to ecommerce
-                streams. Instead of just watching a product demo, shoppers join
-                an experience where they can unlock offers, win prizes, complete
-                actions, and stay engaged while buying live.
+                Most live shopping feels passive. Winme makes it interactive.
               </CardDescription>
             </section>
           </div>
