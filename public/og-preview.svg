@@ -1,102 +1,107 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
   <defs>
-    <linearGradient id="bg" x1="96" y1="70" x2="1098" y2="582" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="86" y1="58" x2="1128" y2="590" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07111F"/>
       <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(235 143) rotate(53.4) scale(365 515)">
-      <stop stop-color="#1DBF73" stop-opacity="0.38"/>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(207 143) rotate(38.6) scale(357 507)">
+      <stop stop-color="#1DBF73" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#1DBF73" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(932 118) rotate(135.1) scale(262 356)">
-      <stop stop-color="#FF3D2E" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#FF3D2E" stop-opacity="0"/>
+    <radialGradient id="glowRed" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(966 148) rotate(143) scale(270 327)">
+      <stop stop-color="#FF4636" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF4636" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="panel" x1="748" y1="118" x2="1055" y2="491" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101D31"/>
-      <stop offset="1" stop-color="#0B1423"/>
+    <linearGradient id="card" x1="764" y1="104" x2="1047" y2="514" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B2E"/>
+      <stop offset="1" stop-color="#0A1220"/>
     </linearGradient>
-    <linearGradient id="bagFront" x1="777" y1="183" x2="928" y2="518" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A8CF45"/>
+    <linearGradient id="bagFront" x1="833" y1="199" x2="955" y2="439" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ABD24F"/>
       <stop offset="1" stop-color="#95BF47"/>
     </linearGradient>
-    <linearGradient id="bagSide" x1="929" y1="205" x2="1014" y2="505" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bagSide" x1="953" y1="204" x2="1024" y2="434" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6E9E3E"/>
       <stop offset="1" stop-color="#5D8B2F"/>
     </linearGradient>
-    <filter id="shadow" x="700" y="70" width="408" height="486" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="panelShadow" x="718" y="84" width="396" height="462" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="24"/>
+      <feOffset dy="18"/>
       <feGaussianBlur stdDeviation="22"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.0196078 0 0 0 0 0.0470588 0 0 0 0 0.109804 0 0 0 0.36 0"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647 0 0 0 0 0.0392157 0 0 0 0 0.0941176 0 0 0 0.36 0"/>
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
     </filter>
   </defs>
 
   <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
-  <rect width="1200" height="630" rx="36" fill="url(#glowA)"/>
-  <rect width="1200" height="630" rx="36" fill="url(#glowB)"/>
+  <rect width="1200" height="630" rx="36" fill="url(#glowGreen)"/>
+  <rect width="1200" height="630" rx="36" fill="url(#glowRed)"/>
 
-  <g opacity="0.1">
-    <path d="M0 85H1200" stroke="white"/>
-    <path d="M0 160H1200" stroke="white"/>
-    <path d="M0 235H1200" stroke="white"/>
-    <path d="M0 310H1200" stroke="white"/>
-    <path d="M0 385H1200" stroke="white"/>
-    <path d="M0 460H1200" stroke="white"/>
-    <path d="M0 535H1200" stroke="white"/>
+  <g opacity="0.08">
+    <path d="M0 96H1200" stroke="white"/>
+    <path d="M0 184H1200" stroke="white"/>
+    <path d="M0 272H1200" stroke="white"/>
+    <path d="M0 360H1200" stroke="white"/>
+    <path d="M0 448H1200" stroke="white"/>
+    <path d="M0 536H1200" stroke="white"/>
   </g>
 
-  <rect x="80" y="88" width="168" height="40" rx="20" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
-  <text x="108" y="113" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.24em">WINME.LIVE</text>
+  <rect x="82" y="74" width="186" height="42" rx="21" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.1"/>
+  <text x="112" y="101" fill="#C8F5E2" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.22em">WINME.LIVE</text>
 
-  <text x="82" y="208" fill="white" font-family="Poppins, Arial, sans-serif" font-size="74" font-weight="800">
-    <tspan x="82" dy="0">Winme turns live shopping</tspan>
-    <tspan x="82" dy="88">into a game people want</tspan>
-    <tspan x="82" dy="88">to play.</tspan>
+  <text x="82" y="206" fill="white" font-family="Poppins, Arial, sans-serif" font-size="82" font-weight="800">
+    <tspan x="82" dy="0">Turn live viewers</tspan>
+    <tspan x="82" dy="94">into active buyers.</tspan>
   </text>
 
-  <text x="86" y="492" fill="#D1D5DB" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="500">
-    Shopify x YouTube gamification for rewards, urgency,
+  <text x="86" y="420" fill="#E5E7EB" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600">
+    Gamified live commerce
   </text>
-  <text x="86" y="530" fill="#D1D5DB" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="500">
-    live interaction, and faster checkout moments.
+  <text x="86" y="468" fill="#CBD5E1" font-family="Poppins, Arial, sans-serif" font-size="32" font-weight="500">
+    for modern brands.
   </text>
 
   <g>
-    <rect x="82" y="560" width="124" height="38" rx="19" fill="#123A2A" stroke="#1DBF73" stroke-opacity="0.4"/>
-    <text x="111" y="585" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Shopify</text>
-    <rect x="220" y="560" width="136" height="38" rx="19" fill="#2E1314" stroke="#FF3D2E" stroke-opacity="0.45"/>
-    <text x="251" y="585" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">YouTube</text>
-    <rect x="370" y="560" width="132" height="38" rx="19" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
-    <text x="402" y="585" fill="white" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Rewards</text>
+    <rect x="82" y="526" width="132" height="42" rx="21" fill="#123A2A" stroke="#1DBF73" stroke-opacity="0.42"/>
+    <text x="112" y="553" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Shopify</text>
+    <rect x="228" y="526" width="144" height="42" rx="21" fill="#2B1214" stroke="#FF4636" stroke-opacity="0.42"/>
+    <text x="260" y="553" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">YouTube</text>
+    <rect x="386" y="526" width="154" height="42" rx="21" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+    <text x="420" y="553" fill="white" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Rewards</text>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="736" y="96" width="344" height="434" rx="36" fill="url(#panel)" stroke="white" stroke-opacity="0.08"/>
+  <g filter="url(#panelShadow)">
+    <rect x="760" y="104" width="312" height="418" rx="34" fill="url(#card)" stroke="white" stroke-opacity="0.08"/>
 
-    <rect x="773" y="132" width="122" height="34" rx="17" fill="#1DBF73" fill-opacity="0.14" stroke="#1DBF73" stroke-opacity="0.34"/>
-    <text x="803" y="154" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="700">SHOPIFY</text>
+    <rect x="786" y="132" width="90" height="30" rx="15" fill="#FF4636" fill-opacity="0.14" stroke="#FF4636" stroke-opacity="0.26"/>
+    <circle cx="808" cy="147" r="5" fill="#FF6558"/>
+    <text x="822" y="153" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.18em">LIVE</text>
 
-    <rect x="905" y="132" width="132" height="34" rx="17" fill="#FF3D2E" fill-opacity="0.14" stroke="#FF3D2E" stroke-opacity="0.34"/>
-    <text x="936" y="154" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="700">YOUTUBE</text>
+    <rect x="892" y="132" width="152" height="30" rx="15" fill="#1DBF73" fill-opacity="0.14" stroke="#1DBF73" stroke-opacity="0.28"/>
+    <text x="917" y="153" fill="#C8F5E2" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700">Turning viewers into buyers</text>
 
-    <g transform="translate(785 182)">
-      <path d="M50 31C59 6 79 0 100 0c21 0 38 11 48 32" stroke="#8CC63F" stroke-width="10" stroke-linecap="round"/>
-      <path d="M87 25c5-16 12-25 21-25 10 0 18 10 21 24" stroke="#A8CF45" stroke-width="9" stroke-linecap="round"/>
-      <path d="m0 43 74-24h123l61 60-36 230L0 265 0 43Z" fill="url(#bagFront)"/>
-      <path d="m197 19 61 60-36 230-25-14V19Z" fill="url(#bagSide)"/>
-      <text x="88" y="212" fill="white" font-family="Poppins, Arial, sans-serif" font-size="160" font-style="italic" font-weight="900" text-anchor="middle">S</text>
+    <g transform="translate(814 182)">
+      <path d="M44 27C53 6 73 0 92 0c19 0 35 11 44 29" stroke="#8CC63F" stroke-width="8" stroke-linecap="round"/>
+      <path d="M78 23C83 8 92 0 102 0c11 0 18 9 21 22" stroke="#A8CF45" stroke-width="7" stroke-linecap="round"/>
+      <path d="m0 38 60-19h101l50 49-30 193L0 223V38Z" fill="url(#bagFront)"/>
+      <path d="m161 19 50 49-30 193-20-12V19Z" fill="url(#bagSide)"/>
+      <text x="71" y="175" fill="white" font-family="Poppins, Arial, sans-serif" font-size="132" font-style="italic" font-weight="900" text-anchor="middle">S</text>
     </g>
 
-    <g transform="translate(933 334)">
-      <rect width="110" height="74" rx="24" fill="#FF1A12"/>
-      <path d="M43 20 77 37 43 54Z" fill="white"/>
+    <g transform="translate(936 298)">
+      <rect width="98" height="66" rx="22" fill="#FF1A12"/>
+      <path d="M39 18 71 33 39 48Z" fill="white"/>
     </g>
 
-    <rect x="772" y="446" width="270" height="48" rx="24" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.1"/>
-    <text x="809" y="476" fill="#E5E7EB" font-family="Poppins, Arial, sans-serif" font-size="19" font-weight="600">Interactive rewards and urgency</text>
+    <rect x="788" y="412" width="258" height="82" rx="24" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="814" y="442" fill="white" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="700">Interactive rewards</text>
+    <text x="814" y="470" fill="#CBD5E1" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="500">
+      Gamified live commerce for modern
+    </text>
+    <text x="814" y="494" fill="#CBD5E1" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="500">
+      brands running Shopify x YouTube.
+    </text>
   </g>
 </svg>
