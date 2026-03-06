@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="70" x2="1098" y2="582" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(235 143) rotate(53.4) scale(365 515)">
+      <stop stop-color="#1DBF73" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#1DBF73" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(932 118) rotate(135.1) scale(262 356)">
+      <stop stop-color="#FF3D2E" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FF3D2E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="748" y1="118" x2="1055" y2="491" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D31"/>
+      <stop offset="1" stop-color="#0B1423"/>
+    </linearGradient>
+    <linearGradient id="bagFront" x1="777" y1="183" x2="928" y2="518" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8CF45"/>
+      <stop offset="1" stop-color="#95BF47"/>
+    </linearGradient>
+    <linearGradient id="bagSide" x1="929" y1="205" x2="1014" y2="505" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6E9E3E"/>
+      <stop offset="1" stop-color="#5D8B2F"/>
+    </linearGradient>
+    <filter id="shadow" x="700" y="70" width="408" height="486" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0196078 0 0 0 0 0.0470588 0 0 0 0 0.109804 0 0 0 0.36 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="36" fill="url(#glowA)"/>
+  <rect width="1200" height="630" rx="36" fill="url(#glowB)"/>
+
+  <g opacity="0.1">
+    <path d="M0 85H1200" stroke="white"/>
+    <path d="M0 160H1200" stroke="white"/>
+    <path d="M0 235H1200" stroke="white"/>
+    <path d="M0 310H1200" stroke="white"/>
+    <path d="M0 385H1200" stroke="white"/>
+    <path d="M0 460H1200" stroke="white"/>
+    <path d="M0 535H1200" stroke="white"/>
+  </g>
+
+  <rect x="80" y="88" width="168" height="40" rx="20" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+  <text x="108" y="113" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.24em">WINME.LIVE</text>
+
+  <text x="82" y="208" fill="white" font-family="Poppins, Arial, sans-serif" font-size="74" font-weight="800">
+    <tspan x="82" dy="0">Winme turns live shopping</tspan>
+    <tspan x="82" dy="88">into a game people want</tspan>
+    <tspan x="82" dy="88">to play.</tspan>
+  </text>
+
+  <text x="86" y="492" fill="#D1D5DB" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="500">
+    Shopify x YouTube gamification for rewards, urgency,
+  </text>
+  <text x="86" y="530" fill="#D1D5DB" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="500">
+    live interaction, and faster checkout moments.
+  </text>
+
+  <g>
+    <rect x="82" y="560" width="124" height="38" rx="19" fill="#123A2A" stroke="#1DBF73" stroke-opacity="0.4"/>
+    <text x="111" y="585" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Shopify</text>
+    <rect x="220" y="560" width="136" height="38" rx="19" fill="#2E1314" stroke="#FF3D2E" stroke-opacity="0.45"/>
+    <text x="251" y="585" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">YouTube</text>
+    <rect x="370" y="560" width="132" height="38" rx="19" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+    <text x="402" y="585" fill="white" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Rewards</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="736" y="96" width="344" height="434" rx="36" fill="url(#panel)" stroke="white" stroke-opacity="0.08"/>
+
+    <rect x="773" y="132" width="122" height="34" rx="17" fill="#1DBF73" fill-opacity="0.14" stroke="#1DBF73" stroke-opacity="0.34"/>
+    <text x="803" y="154" fill="#A7F3D0" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="700">SHOPIFY</text>
+
+    <rect x="905" y="132" width="132" height="34" rx="17" fill="#FF3D2E" fill-opacity="0.14" stroke="#FF3D2E" stroke-opacity="0.34"/>
+    <text x="936" y="154" fill="#FECACA" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="700">YOUTUBE</text>
+
+    <g transform="translate(785 182)">
+      <path d="M50 31C59 6 79 0 100 0c21 0 38 11 48 32" stroke="#8CC63F" stroke-width="10" stroke-linecap="round"/>
+      <path d="M87 25c5-16 12-25 21-25 10 0 18 10 21 24" stroke="#A8CF45" stroke-width="9" stroke-linecap="round"/>
+      <path d="m0 43 74-24h123l61 60-36 230L0 265 0 43Z" fill="url(#bagFront)"/>
+      <path d="m197 19 61 60-36 230-25-14V19Z" fill="url(#bagSide)"/>
+      <text x="88" y="212" fill="white" font-family="Poppins, Arial, sans-serif" font-size="160" font-style="italic" font-weight="900" text-anchor="middle">S</text>
+    </g>
+
+    <g transform="translate(933 334)">
+      <rect width="110" height="74" rx="24" fill="#FF1A12"/>
+      <path d="M43 20 77 37 43 54Z" fill="white"/>
+    </g>
+
+    <rect x="772" y="446" width="270" height="48" rx="24" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.1"/>
+    <text x="809" y="476" fill="#E5E7EB" font-family="Poppins, Arial, sans-serif" font-size="19" font-weight="600">Interactive rewards and urgency</text>
+  </g>
+</svg>
